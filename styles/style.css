@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(59, 70, 100, 1);
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blockBorder {
+    display: grid;
+}
+#input {
+    background-color: rgba(24, 31, 50, 1);
+    color: white;
+    font-size: 2em;
+    width: 9.83em;
+    padding: 12px;
+    border-radius: 13px;
+    border: none;
+    text-align: right;
+    letter-spacing: 8px;
+    font-weight: 700;
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttonBlock {
+        background-color: rgba(37, 45, 68, 1);
+        display: grid;
+        height: 60vh;
+        row-gap: 12px;
+        width: 30em;
+        grid-template-columns: 25% 25% 25% 25%;
+        padding: 2em 0em 2em 1em;
+        margin-top: 1em;
+        border-radius: 12px;
+}
+button {
+    background-color: rgba(234, 227, 219, 1);
+    color: black;
+    font-size: 2em;
+    border-radius: 8px;
+    padding: 10px;
+    width: 3em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: rgba(59, 70, 100, 1);
+}
+#deleteBtn {
+    background-color: rgba(100, 114, 153, 1);
+    color: rgba(255, 255, 255, 1);
+}
+#resetBtn {
+    background-color: rgba(100, 114, 153, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 7em;
+    grid-column: 1 / span 1;
+}
+#equalBtn {
+    background-color: rgba(209, 63, 48, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 6.75em;
+    grid-column: 3 / span 2;
+}
